@@ -1,0 +1,32 @@
+﻿@model IEnumerable<WebApplication1.Models.Producto>
+@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+<div class="grid-container">
+    @foreach (var item in Model)
+    {
+        <div class="grid-item">
+            <div class="product">
+                <div class="product-image">
+                    <img src="@item.foto" alt="@item.nombre" />
+                </div>
+                <div class="product-details">
+                    <h2>@item.nombre</h2>
+                    <p>@item.descripcion</p>
+                    <p>Precio: @item.precio</p>
+                    <p>Marca: @item.marca</p>
+                    <div class="product-actions">
+                        <a asp-controller="Productos" asp-action="Edit" asp-route-id="@item.Id">Editar</a>
+                        <a asp-controller="Productos" asp-action="Details" asp-route-id="@item.Id">Detalles</a>
+                        <a asp-controller="Productos" asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
