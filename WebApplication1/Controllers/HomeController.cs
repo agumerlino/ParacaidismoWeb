@@ -18,7 +18,7 @@ namespace WebApplication1.Controllers
         }
 
         public async Task<IActionResult> Index()
-        {
+        {//OFERTAS: productos marca nike, PRODUCTOSB: productos precio menor a 5
             var ofertas = await _context.Producto
                 .Where(td => td.marca == "nike")
                 .ToListAsync();
@@ -26,7 +26,24 @@ namespace WebApplication1.Controllers
                 .Where(td => td.precio < 5)
                 .ToListAsync();
             return View(productosB);
-        }     
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Search(string searchTerm)
+        {
+            if (string.IsNullOrEmpty(searchTerm))
+            {
+                // Si el término de búsqueda está vacío, podrías redirigir a la página principal o mostrar un mensaje de error.
+                return RedirectToAction("Index");
+            }
+
+            // Lógica para buscar productos por el término de búsqueda
+            var productosEncontrados = await _context.Producto
+                .Where(p => p.nombre.Contains(searchTerm))
+                .ToListAsync();
+
+            return View("Index",productosEncontrados);
+        }
 
         public IActionResult Privacy()
         {

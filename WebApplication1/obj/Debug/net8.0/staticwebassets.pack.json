@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\D_NQ_NP_836311-MLA76180741862_052024-OO.webp",
+      "PackagePath": "staticwebassets\\img\\D_NQ_NP_836311-MLA76180741862_052024-OO.webp"
+    },
+    {
+      "Id": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\D_NQ_NP_913191-MLA76180752082_052024-OO.webp",
+      "PackagePath": "staticwebassets\\img\\D_NQ_NP_913191-MLA76180752082_052024-OO.webp"
+    },
+    {
       "Id": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

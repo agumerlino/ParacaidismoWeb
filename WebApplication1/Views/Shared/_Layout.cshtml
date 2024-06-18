@@ -6,10 +6,16 @@
     <title>@ViewData["Title"] - WebApplication1</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/WebApplication1.styles.css" asp-append-version="true" />
-   
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
 </head>
 <body>
+    <div class="wrapper">
+        <div class="content">
    @*  HEADER PARA PC *@
     <header class="d-none d-md-block">
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
@@ -20,6 +26,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
                             <div class="custom-dropdown">
@@ -74,6 +81,10 @@
                             </div>
                         </li>
                     </ul>
+                    <form class="d-flex ms-auto my-2 my-lg-0" method="post" asp-controller="Home" asp-action="Search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar productos" aria-label="Buscar" name="searchTerm">
+                        <button class="btn btn-outline-primary" type="submit">Buscar</button>
+                    </form>
                     <partial name="_LoginPartial" />
                 </div>
             </div>
@@ -131,6 +142,10 @@
                             <a class="nav-link" asp-area="" asp-controller="Productos" asp-action="Index">QUIERO PUBLICAR MI PRODUCTO</a>
                         </li>
                     </ul>
+                    <form class="d-flex ms-auto my-2 my-lg-0" method="post" asp-controller="Home" asp-action="Search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar productos" aria-label="Buscar" name="searchTerm">
+                        <button class="btn btn-outline-primary" type="submit">Buscar</button>
+                    </form>
                     <partial name="_LoginPartial" />
                 </div>
             </div>
@@ -138,19 +153,20 @@
     </header>
     <div class="container">
         <main role="main" class="pb-3">
+                    
             @RenderBody()
         </main>
     </div>
-
+        </div>
+    </div>
+    
     <footer class="border-top footer text-muted">
         <div class="container">
             &copy; 2024 - WebApplication1 - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
-   
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
+    
+    
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
