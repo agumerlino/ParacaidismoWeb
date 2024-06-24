@@ -13,15 +13,13 @@
     @foreach (var item in Model)
     {
         <div class="grid-item">
-            <div class="product">
-                <div class="product-image">
-                    <img src="@item.foto" alt="@item.nombre" />
-                </div>
-                <div class="product-details">
+            <div class="product" style="background-image: url('@Url.Content("~/img/Productos/" + item.foto)')">
+                <div class="product-overlay">
                     <h2>@item.nombre</h2>
                     <p>@item.descripcion</p>
                     <p>Precio: @item.precio</p>
-                    <p>Marca: @item.marca</p>
+                    <p>Categoria: @item.categoria</p>
+                    <p>Subcategoria: @item.subcategoria</p>
                     <div class="product-actions">
                         <a asp-action="Edit" asp-route-id="@item.Id">Editar</a>
                         <a asp-action="Details" asp-route-id="@item.Id">Detalles</a>

@@ -32,37 +32,68 @@ footer.footer {
 }
 
 .grid-item {
-    background-color: #f9f9f9; /* Color de fondo de los elementos de la cuadrícula */
+    overflow: hidden;
     border: 1px solid #ddd; /* Borde delgado con color gris claro */
     padding: 20px; /* Espacio interior de los elementos de la cuadrícula */
 }
 
 /* Estilos de productos */
 .product {
-    display: flex;
-    flex-direction: column; /* Disposición de los elementos del producto en columna */
+    /*display: flex;
+    flex-direction: column;*/ /* Disposición de los elementos del producto en columna */
+    /*background-size: cover;
+    background-position: center;*/
+    position: relative;
+    height: 300px; /* Ajusta la altura según necesites */
+    background-size: cover;
+    background-position: center;
+    color: black; /* Color del texto sobre la imagen */
+}
+.product-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+    padding: 20px;
+    text-align: center;
 }
 
 .product-image img {
     max-width: 100%; /* Imágenes de productos con ancho máximo del contenedor */
     height: auto; /* Altura automática según la proporción de la imagen */
-    margin-bottom: 10px; /* Espacio inferior entre la imagen del producto y otros elementos */
-}
+   }
+
 
 .product-details {
     flex-grow: 1; /* Los detalles del producto ocupan todo el espacio disponible */
 }
 
+.product h2, .product p {
+    margin: 5px 0;
+}
 .product-actions {
     margin-top: 10px; /* Espacio superior entre acciones y detalles del producto */
 }
 
     .product-actions a {
         margin-right: 10px; /* Espacio entre elementos de acción del producto */
+        color: white;
+        text-decoration: none;
     }
 
 /* Estilos para PC */
 @media (min-width: 768px) {
+    .nav-link{
+        white-space: nowrap; /* Evita que el texto se divida en varias líneas automáticamente */
+        text-align: center;
+    }
+
+        .nav-link::after {
+            content: ''; /* Contenido adicional */
+            display: block; /* Lo convierte en un bloque separado */
+            margin-top: 0.5em; /* Espacio entre líneas */
+        }
     /* Estilos del menú desplegable personalizado */
     .custom-dropdown-content {
         display: none; /* Oculta el contenido del menú desplegable por defecto */
@@ -154,6 +185,16 @@ footer.footer {
 
     .navbar-nav .nav-item.dropdown {
         position: static; /* Posición estática para los elementos desplegables */
+    }
+
+    .dropdown-menu.show {
+        max-height: 500px; /* El valor debe ser mayor que la altura máxima de tus submenús */
+    }
+    .dropdown-menu {
+        display: block;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.8s ease-in-out;
     }
 
         .navbar-nav .nav-item.dropdown .dropdown-menu {

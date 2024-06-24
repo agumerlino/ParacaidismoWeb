@@ -13,10 +13,12 @@ namespace WebApplication1.Controllers
     public class ProductosController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly IWebHostEnvironment _env;
 
-        public ProductosController(ApplicationDbContext context)
+        public ProductosController(ApplicationDbContext context, IWebHostEnvironment env)
         {
             _context = context;
+            _env = env;
         }
 
         // GET: Productos
@@ -54,10 +56,27 @@ namespace WebApplication1.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,nombre,descripcion,precio,marca,foto")] Producto producto)
+        public async Task<IActionResult> Create([Bind("Id,nombre,descripcion,precio,categoria,subcategoria")] Producto producto)
         {
             if (ModelState.IsValid)
             {
+                var archivos = HttpContext.Request.Form.Files;
+                if (archivos != null && archivos.Count > 0)
+                {
+                    var archivoFoto = archivos[0];
+
+                    if (archivoFoto.Length > 0)
+                    {
+                        var pathDestino = Path.Combine(_env.WebRootPath, "img\\Productos");
+                        var archivoDestino = Guid.NewGuid().ToString().Replace("-", "") + Path.GetExtension(archivoFoto.FileName);
+
+                        using (var filestream = new FileStream(Path.Combine(pathDestino, archivoDestino), FileMode.Create))
+                        {
+                            archivoFoto.CopyTo(filestream);
+                            producto.foto = archivoDestino;
+                        }
+                    }
+                }
                 _context.Add(producto);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -152,6 +171,47 @@ namespace WebApplication1.Controllers
         private bool ProductoExists(int id)
         {
             return _context.Producto.Any(e => e.Id == id);
+        }
+
+        public async Task<IActionResult> Cat(string categoria)
+        {
+            if (string.IsNullOrEmpty(categoria))
+            {
+                return NotFound();
+            }
+
+            // Filtrar productos por la categoría especificada
+            var productos = await _context.Producto
+                .Where(p => p.categoria == categoria)
+                .ToListAsync();
+
+            if (productos == null || productos.Count == 0)
+            {
+                ViewData["Mensaje"] = "No se encontraron productos";
+                return View("NoProductos");
+            }
+
+            return View("Index", productos); // Mostrar la vista "Index" con los productos filtrados
+        }
+        public async Task<IActionResult> sCat(string subcategoria, string categoria)
+        {
+            if (string.IsNullOrEmpty(subcategoria) || string.IsNullOrEmpty(categoria))
+            {
+                return NotFound();
+            }
+
+            // Filtrar productos por la categoría y subcategoría especificadas
+            var productos = await _context.Producto
+                .Where(p => p.categoria == categoria && p.subcategoria == subcategoria)
+                .ToListAsync();
+
+            if (productos == null || productos.Count == 0)
+            {
+                ViewData["Mensaje"] = $"No se encontraron productos";
+                return View("NoProductos");
+            }
+
+            return View("Index", productos); // Mostrar la vista "Index" con los productos filtrados
         }
     }
 }

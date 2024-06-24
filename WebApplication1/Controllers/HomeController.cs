@@ -4,6 +4,7 @@ using WebApplication1.Data;
 using WebApplication1.Models;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
+using WebApplication1.Data.Migrations;
 
 namespace WebApplication1.Controllers
 {
@@ -19,9 +20,6 @@ namespace WebApplication1.Controllers
 
         public async Task<IActionResult> Index()
         {//OFERTAS: productos marca nike, PRODUCTOSB: productos precio menor a 5
-            var ofertas = await _context.Producto
-                .Where(td => td.marca == "nike")
-                .ToListAsync();
             var productosB = await _context.Producto
                 .Where(td => td.precio < 5)
                 .ToListAsync();
@@ -34,14 +32,19 @@ namespace WebApplication1.Controllers
             if (string.IsNullOrEmpty(searchTerm))
             {
                 // Si el término de búsqueda está vacío, podrías redirigir a la página principal o mostrar un mensaje de error.
-                return RedirectToAction("Index");
+                ViewData["Mensaje"] = "No se encontraron productos";
+                return View("~/Views/Productos/NoProductos.cshtml");
             }
 
             // Lógica para buscar productos por el término de búsqueda
             var productosEncontrados = await _context.Producto
-                .Where(p => p.nombre.Contains(searchTerm))
+                .Where(p => p.nombre.StartsWith(searchTerm))
                 .ToListAsync();
-
+            if(productosEncontrados.Count == 0)
+            {
+                ViewData["Mensaje"] = "No se encontraron productos";
+                return View("~/Views/Productos/NoProductos.cshtml");
+            }
             return View("Index",productosEncontrados);
         }
 

@@ -3,36 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{60E489A0-E02A-4897-9E3B-38A39D7F6434}|WebApplication1\\WebApplication1.csproj|c:\\users\\disegno soft\\source\\repos\\webapplication1\\webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{60E489A0-E02A-4897-9E3B-38A39D7F6434}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60E489A0-E02A-4897-9E3B-38A39D7F6434}|WebApplication1\\WebApplication1.csproj|C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{60E489A0-E02A-4897-9E3B-38A39D7F6434}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60E489A0-E02A-4897-9E3B-38A39D7F6434}|WebApplication1\\WebApplication1.csproj|C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\webapplication1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{60E489A0-E02A-4897-9E3B-38A39D7F6434}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60E489A0-E02A-4897-9E3B-38A39D7F6434}|WebApplication1\\WebApplication1.csproj|C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60E489A0-E02A-4897-9E3B-38A39D7F6434}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60E489A0-E02A-4897-9E3B-38A39D7F6434}|WebApplication1\\WebApplication1.csproj|C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\webapplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60E489A0-E02A-4897-9E3B-38A39D7F6434}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{60E489A0-E02A-4897-9E3B-38A39D7F6434}|WebApplication1\\WebApplication1.csproj|C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\webapplication1\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{60E489A0-E02A-4897-9E3B-38A39D7F6434}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60E489A0-E02A-4897-9E3B-38A39D7F6434}|WebApplication1\\WebApplication1.csproj|C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{60E489A0-E02A-4897-9E3B-38A39D7F6434}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{60E489A0-E02A-4897-9E3B-38A39D7F6434}|WebApplication1\\WebApplication1.csproj|c:\\users\\disegno soft\\source\\repos\\webapplication1\\webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60E489A0-E02A-4897-9E3B-38A39D7F6434}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60E489A0-E02A-4897-9E3B-38A39D7F6434}|WebApplication1\\WebApplication1.csproj|C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\webapplication1\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{60E489A0-E02A-4897-9E3B-38A39D7F6434}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{60E489A0-E02A-4897-9E3B-38A39D7F6434}|WebApplication1\\WebApplication1.csproj|c:\\users\\disegno soft\\source\\repos\\webapplication1\\webapplication1\\views\\productos\\noproductos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60E489A0-E02A-4897-9E3B-38A39D7F6434}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\productos\\noproductos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60E489A0-E02A-4897-9E3B-38A39D7F6434}|WebApplication1\\WebApplication1.csproj|C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\webapplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60E489A0-E02A-4897-9E3B-38A39D7F6434}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{60E489A0-E02A-4897-9E3B-38A39D7F6434}|WebApplication1\\WebApplication1.csproj|C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\webapplication1\\views\\productos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -43,12 +27,48 @@
       "RelativeMoniker": "D:0:0:{60E489A0-E02A-4897-9E3B-38A39D7F6434}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{60E489A0-E02A-4897-9E3B-38A39D7F6434}|WebApplication1\\WebApplication1.csproj|C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\webapplication1\\views\\productos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60E489A0-E02A-4897-9E3B-38A39D7F6434}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\productos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60E489A0-E02A-4897-9E3B-38A39D7F6434}|WebApplication1\\WebApplication1.csproj|c:\\users\\disegno soft\\source\\repos\\webapplication1\\webapplication1\\data\\migrations\\20240624132931_categoria1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60E489A0-E02A-4897-9E3B-38A39D7F6434}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\data\\migrations\\20240624132931_categoria1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60E489A0-E02A-4897-9E3B-38A39D7F6434}|WebApplication1\\WebApplication1.csproj|c:\\users\\disegno soft\\source\\repos\\webapplication1\\webapplication1\\views\\productos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60E489A0-E02A-4897-9E3B-38A39D7F6434}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\productos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60E489A0-E02A-4897-9E3B-38A39D7F6434}|WebApplication1\\WebApplication1.csproj|c:\\users\\disegno soft\\source\\repos\\webapplication1\\webapplication1\\views\\productos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60E489A0-E02A-4897-9E3B-38A39D7F6434}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\productos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{60E489A0-E02A-4897-9E3B-38A39D7F6434}|WebApplication1\\WebApplication1.csproj|C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\webapplication1\\views\\productos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{60E489A0-E02A-4897-9E3B-38A39D7F6434}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\productos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60E489A0-E02A-4897-9E3B-38A39D7F6434}|WebApplication1\\WebApplication1.csproj|C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\webapplication1\\views\\productos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{60E489A0-E02A-4897-9E3B-38A39D7F6434}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\productos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{60E489A0-E02A-4897-9E3B-38A39D7F6434}|WebApplication1\\WebApplication1.csproj|C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60E489A0-E02A-4897-9E3B-38A39D7F6434}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60E489A0-E02A-4897-9E3B-38A39D7F6434}|WebApplication1\\WebApplication1.csproj|C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\webapplication1\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60E489A0-E02A-4897-9E3B-38A39D7F6434}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60E489A0-E02A-4897-9E3B-38A39D7F6434}|WebApplication1\\WebApplication1.csproj|C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\webapplication1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{60E489A0-E02A-4897-9E3B-38A39D7F6434}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60E489A0-E02A-4897-9E3B-38A39D7F6434}|WebApplication1\\WebApplication1.csproj|C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60E489A0-E02A-4897-9E3B-38A39D7F6434}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60E489A0-E02A-4897-9E3B-38A39D7F6434}|WebApplication1\\WebApplication1.csproj|C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{60E489A0-E02A-4897-9E3B-38A39D7F6434}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60E489A0-E02A-4897-9E3B-38A39D7F6434}|WebApplication1\\WebApplication1.csproj|C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\webapplication1\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{60E489A0-E02A-4897-9E3B-38A39D7F6434}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{60E489A0-E02A-4897-9E3B-38A39D7F6434}|WebApplication1\\WebApplication1.csproj|C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\webapplication1\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,10 +90,6 @@
       "RelativeMoniker": "D:0:0:{60E489A0-E02A-4897-9E3B-38A39D7F6434}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\data\\migrations\\20240612124759_migration1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60E489A0-E02A-4897-9E3B-38A39D7F6434}|WebApplication1\\WebApplication1.csproj|C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\webapplication1\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60E489A0-E02A-4897-9E3B-38A39D7F6434}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{60E489A0-E02A-4897-9E3B-38A39D7F6434}|WebApplication1\\WebApplication1.csproj|C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\Data\\Migrations\\20240612131648_precio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{60E489A0-E02A-4897-9E3B-38A39D7F6434}|WebApplication1\\WebApplication1.csproj|solutionrelative:WebApplication1\\Data\\Migrations\\20240612131648_precio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -89,37 +105,180 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Productos\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Productos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Productos\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Productos\\Index.cshtml",
+              "ViewState": "AQIAAAIAAAAAAAAAAIAwwBEAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T12:38:55.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKcAAAAEAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAcwC0AAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-12T12:23:38.119Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "WebApplication1\\wwwroot\\css\\site.css",
-              "ViewState": "AQIAANMAAAAAAAAAAAAwwOcAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-12T13:55:02.997Z",
+              "DocumentIndex": 0,
+              "Title": "ProductosController.cs",
+              "DocumentMoniker": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\Controllers\\ProductosController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\ProductosController.cs",
+              "ToolTip": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\Controllers\\ProductosController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\ProductosController.cs",
+              "ViewState": "AQIAALEAAAAAAAAAAAAUwNAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T12:29:18.62Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwCUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T14:16:52.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Productos\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Productos\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Productos\\Create.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Productos\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T12:51:54.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Productos\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Productos\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Productos\\Edit.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Productos\\Edit.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAowCAAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T13:28:47.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NoProductos.cshtml",
+              "DocumentMoniker": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Productos\\NoProductos.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Productos\\NoProductos.cshtml",
+              "ToolTip": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Productos\\NoProductos.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Productos\\NoProductos.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T14:23:26.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\Models\\Producto.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Producto.cs",
+              "ToolTip": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\Models\\Producto.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Producto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T12:12:26.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Productos\\Details.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Productos\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Productos\\Details.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Productos\\Details.cshtml",
+              "ViewState": "AQIAABAAAAAAAAAAAIAwwB8AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T13:29:15.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20240624132931_categoria1.cs",
+              "DocumentMoniker": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\Data\\Migrations\\20240624132931_categoria1.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Data\\Migrations\\20240624132931_categoria1.cs",
+              "ToolTip": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\Data\\Migrations\\20240624132931_categoria1.cs",
+              "RelativeToolTip": "WebApplication1\\Data\\Migrations\\20240624132931_categoria1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T13:29:31.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAgAAAAAAAAAAIAwwBoAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T12:23:21.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\Models\\Categoria.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Categoria.cs",
+              "ToolTip": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\Models\\Categoria.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Categoria.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T12:13:18.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Productos\\Delete.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Productos\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Productos\\Delete.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Productos\\Delete.cshtml",
+              "ViewState": "AQIAABEAAAAAAAAAAIAwwCAAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T15:35:43.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\Program.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
@@ -127,87 +286,23 @@
               "RelativeToolTip": "WebApplication1\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T15:52:53.95Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-13T15:52:53.95Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "WebApplication1\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAADMAAAAAAAAAAAAcwHQAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T12:23:21.849Z",
-              "EditorCaption": ""
+              "DocumentIndex": 13,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "WebApplication1\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAACwAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-12T13:55:02.997Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Productos\\Create.cshtml",
-              "RelativeDocumentMoniker": "WebApplication1\\Views\\Productos\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Productos\\Create.cshtml",
-              "RelativeToolTip": "WebApplication1\\Views\\Productos\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T12:51:54.837Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Productos\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApplication1\\Views\\Productos\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Productos\\Index.cshtml",
-              "RelativeToolTip": "WebApplication1\\Views\\Productos\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T12:38:55.866Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Producto.cs",
-              "DocumentMoniker": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\Models\\Producto.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Models\\Producto.cs",
-              "ToolTip": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\Models\\Producto.cs",
-              "RelativeToolTip": "WebApplication1\\Models\\Producto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T12:12:26.859Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "WebApplication1\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAiwCQAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T14:16:52.504Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProductosController.cs",
-              "DocumentMoniker": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\Controllers\\ProductosController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\ProductosController.cs",
-              "ToolTip": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\Controllers\\ProductosController.cs",
-              "RelativeToolTip": "WebApplication1\\Controllers\\ProductosController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T12:29:18.62Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 16,
               "Title": "site.js",
               "DocumentMoniker": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\js\\site.js",
@@ -219,7 +314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 15,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\appsettings.json",
               "RelativeDocumentMoniker": "WebApplication1\\appsettings.json",
@@ -231,7 +326,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Data\\ApplicationDbContext.cs",
@@ -243,19 +338,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Productos\\Delete.cshtml",
-              "RelativeDocumentMoniker": "WebApplication1\\Views\\Productos\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Productos\\Delete.cshtml",
-              "RelativeToolTip": "WebApplication1\\Views\\Productos\\Delete.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T15:35:43.802Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\Models\\Usuario.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Models\\Usuario.cs",
@@ -267,7 +350,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\Privacy.cshtml",
@@ -279,7 +362,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "20240612131648_precio.cs",
               "DocumentMoniker": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\Data\\Migrations\\20240612131648_precio.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Data\\Migrations\\20240612131648_precio.cs",
@@ -291,7 +374,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "20240612132956_asd.cs",
               "DocumentMoniker": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\Data\\Migrations\\20240612132956_asd.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Data\\Migrations\\20240612132956_asd.cs",
@@ -303,7 +386,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "dbo.Producto [Datos]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_WebApplication1_bfa1025e_468f_4b52_91be_7bb54f06027c/True/SqlTable/dbo.Producto.sql",
               "ToolTip": "dbo.Producto [Datos]",
@@ -312,7 +395,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "20240612124759_migration1.cs",
               "DocumentMoniker": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\Data\\Migrations\\20240612124759_migration1.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Data\\Migrations\\20240612124759_migration1.cs",
@@ -321,18 +404,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-12T12:47:59.632Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Categoria.cs",
-              "DocumentMoniker": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\Models\\Categoria.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Models\\Categoria.cs",
-              "ToolTip": "C:\\Users\\Disegno soft\\source\\repos\\WebApplication1\\WebApplication1\\Models\\Categoria.cs",
-              "RelativeToolTip": "WebApplication1\\Models\\Categoria.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T12:13:18.163Z"
             }
           ]
         }

@@ -28,13 +28,26 @@
                 <span asp-validation-for="precio" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="marca" class="control-label"></label>
-                <input asp-for="marca" class="form-control" />
-                <span asp-validation-for="marca" class="text-danger"></span>
+                <label asp-for="categoria" class="control-label"></label>
+                <select id="categoria" asp-for="categoria" class="form-control">
+                    <option value="PARACAIDISMO">PARACAIDISMO</option>
+                    <option value="PARAPENTE">PARAPENTE</option>
+                    <option value="PILOTOS">PILOTOS</option>
+                    <option value="OTROS">OTROS</option>
+                </select>
+                <span asp-validation-for="categoria" class="text-danger"></span>
+            </div>
+
+            <div class="form-group" id="subcategoriaContainer" style="display: none;">
+                <label asp-for="subcategoria" class="control-label"></label>
+                <select id="subcategoria" asp-for="subcategoria" class="form-control">
+                    <!-- Opciones serán mostradas dinámicamente -->
+                </select>
+                <span asp-validation-for="subcategoria" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="foto" class="control-label"></label>
-                <input asp-for="foto" class="form-control" />
+                <input asp-for="foto" type="file" accept="image/jpeg" />
                 <span asp-validation-for="foto" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -50,4 +63,40 @@
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var categoriaSelect = document.getElementById('categoria');
+            var subcategoriaSelect = document.getElementById('subcategoria');
+            var subcategoriaContainer = document.getElementById('subcategoriaContainer');
+
+            var opcionesPorCategoria = {
+                'PARACAIDISMO': ['Arnes-Velas', 'Cascos', 'Altimetros', 'Ropa'],
+                'PARAPENTE': ['Arnes-Velas', 'Accesorios', 'Ropa'],
+                'PILOTOS': ['Accesorios', 'Ropa'],
+                'OTROS': ['Camaras']
+            };
+
+            function actualizarSubcategorias() {
+                var categoriaSeleccionada = categoriaSelect.value;
+                var opciones = opcionesPorCategoria[categoriaSeleccionada] || [];
+
+                subcategoriaSelect.innerHTML = '';
+
+                opciones.forEach(function (opcion) {
+                    var option = document.createElement('option');
+                    option.textContent = opcion;
+                    option.value = opcion;
+                    subcategoriaSelect.appendChild(option);
+                });
+
+                subcategoriaContainer.style.display = opciones.length > 0 ? 'block' : 'none';
+            }
+
+            categoriaSelect.addEventListener('change', function () {
+                actualizarSubcategorias();
+            });
+
+            actualizarSubcategorias();
+        });
+    </script>
 }
