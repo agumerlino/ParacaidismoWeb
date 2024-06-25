@@ -9,6 +9,7 @@
         public string categoria { get; set; }
         public string? subcategoria { get; set; }
         public string? foto { get; set; }
+        public bool destacar { get; set; }
 
     }
 }

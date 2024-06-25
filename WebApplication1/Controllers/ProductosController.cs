@@ -56,7 +56,7 @@ namespace WebApplication1.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,nombre,descripcion,precio,categoria,subcategoria")] Producto producto)
+        public async Task<IActionResult> Create([Bind("Id,nombre,descripcion,precio,categoria,subcategoria,destacar")] Producto producto)
         {
             if (ModelState.IsValid)
             {
@@ -105,7 +105,7 @@ namespace WebApplication1.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,nombre,descripcion,precio,marca,foto")] Producto producto)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,nombre,descripcion,precio,categoria,subcategoria,foto,destacar")] Producto producto)
         {
             if (id != producto.Id)
             {
@@ -212,6 +212,12 @@ namespace WebApplication1.Controllers
             }
 
             return View("Index", productos); // Mostrar la vista "Index" con los productos filtrados
+        }
+        public async Task<IActionResult> QuieroVender()
+        {
+            
+
+            return View("QuieroVender"); // Mostrar la vista "Index" con los productos filtrados
         }
     }
 }

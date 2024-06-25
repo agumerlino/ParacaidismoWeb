@@ -15,6 +15,14 @@ html, body {
 .content {
     padding-bottom: 50px;
 }
+.pb-3 {
+    width: 100%;
+    justify-content: center;
+}
+.container-render {
+    width: 100vw;
+    justify-content: center;
+}
 footer.footer {
     position: static; /* Cambia a posición absoluta */
     bottom: 0; /* Coloca el footer al fondo */
@@ -26,23 +34,27 @@ footer.footer {
 }
 /* Estilos de la cuadrícula */
 .grid-container {
+    width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Columnas automáticas con ancho mínimo de 250px y máximo de 1fr */
     grid-gap: 20px; /* Espacio entre elementos de la cuadrícula */
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    justify-content: center;
+    margin: auto;
+    align-items: center;
 }
 
 .grid-item {
+    justify-content: center;
+    max-width: 250px;
     overflow: hidden;
     border: 1px solid #ddd; /* Borde delgado con color gris claro */
     padding: 20px; /* Espacio interior de los elementos de la cuadrícula */
+    text-align: center;
 }
 
 /* Estilos de productos */
 .product {
-    /*display: flex;
-    flex-direction: column;*/ /* Disposición de los elementos del producto en columna */
-    /*background-size: cover;
-    background-position: center;*/
+    width: 100%;
     position: relative;
     height: 300px; /* Ajusta la altura según necesites */
     background-size: cover;
@@ -84,6 +96,9 @@ footer.footer {
 
 /* Estilos para PC */
 @media (min-width: 768px) {
+    .navbar-nav {
+        background-color:white;
+    }
     .nav-link{
         white-space: nowrap; /* Evita que el texto se divida en varias líneas automáticamente */
         text-align: center;
@@ -252,7 +267,7 @@ footer.footer {
             }
 }
 .slider-container {
-    width: 100%;
+    width: 100vw;
     max-height: 550px; /* Altura máxima del slider */
     overflow: hidden;
     position: relative;

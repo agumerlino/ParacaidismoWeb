@@ -1,21 +1,22 @@
 ﻿@model IEnumerable<WebApplication1.Models.Producto>
 @{
     ViewData["Title"] = "Home Page";
+
+
 }
 <div class="slider-container">
     <div id="slider" class="slider">
-        <div class="slide"><img src="~/img/D_NQ_NP_836311-MLA76180741862_052024-OO.webp" alt="Oferta 1"></div>
-        <div class="slide"><img src="~/img/D_NQ_NP_913191-MLA76180752082_052024-OO.webp" alt="Oferta 2"></div>
+        <div class="slide"><img src="~/img/flyer1.png" alt="Oferta 1"></div>
+        <div class="slide"><img src="~/img/flyer2.png" alt="Oferta 2"></div>
         <!-- Agrega más imágenes según sea necesario -->
 
     </div>
     <div id="dots" class="slider-dots"></div>
 </div>
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Productos destacados</h1>
 </div>
-<div class="grid-container">
+<div class="grid-container" >
     @foreach (var item in Model)
     {
         <div class="grid-item">
@@ -25,6 +26,10 @@
                     <p>@item.descripcion</p>
                     <p>Precio: @item.precio</p>
                     <p>Marca: @item.categoria</p>
+                    @if (@item.destacar == true)
+                    {
+                        <p>Destacado</p>
+                    }
                     <div class="product-actions">
                         <a asp-action="Edit" asp-route-id="@item.Id">Editar</a>
                         <a asp-action="Details" asp-route-id="@item.Id">Detalles</a>

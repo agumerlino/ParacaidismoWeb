@@ -1,14 +1,8 @@
-﻿@model IEnumerable<WebApplication1.Models.Producto>
-
+﻿
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "VistaBusqueda";
 }
 
-<h1>Index</h1>
-
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
 <div class="grid-container">
     @foreach (var item in Model)
     {
@@ -20,10 +14,6 @@
                     <p>Precio: @item.precio</p>
                     <p>Categoria: @item.categoria</p>
                     <p>Subcategoria: @item.subcategoria</p>
-                    @if(@item.destacar == true)
-                    {
-                        <p>Destacado</p>
-                    }
                     <div class="product-actions">
                         <a asp-action="Edit" asp-route-id="@item.Id">Editar</a>
                         <a asp-action="Details" asp-route-id="@item.Id">Detalles</a>
@@ -34,3 +24,4 @@
         </div>
     }
 </div>
+

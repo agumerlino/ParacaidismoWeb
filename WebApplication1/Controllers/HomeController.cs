@@ -19,11 +19,11 @@ namespace WebApplication1.Controllers
         }
 
         public async Task<IActionResult> Index()
-        {//OFERTAS: productos marca nike, PRODUCTOSB: productos precio menor a 5
-            var productosB = await _context.Producto
-                .Where(td => td.precio < 5)
+        {
+            var productosDestacados = await _context.Producto
+                .Where(td => td.destacar == true)
                 .ToListAsync();
-            return View(productosB);
+            return View(productosDestacados);
         }
 
         [HttpPost]
@@ -45,7 +45,7 @@ namespace WebApplication1.Controllers
                 ViewData["Mensaje"] = "No se encontraron productos";
                 return View("~/Views/Productos/NoProductos.cshtml");
             }
-            return View("Index",productosEncontrados);
+            return View("~/Views/Productos/VistaBusqueda.cshtml", productosEncontrados);
         }
 
         public IActionResult Privacy()

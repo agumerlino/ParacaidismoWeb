@@ -25,7 +25,7 @@
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
 
-                    <ul class="navbar-nav flex-grow-1">
+                            <ul class="navbar-nav d-flex flex-fill justify-content-center">
                         <li class="nav-item">
                             <div class="custom-dropdown">
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index"><span>HOME</span></a>
@@ -48,9 +48,9 @@
                             <div class="custom-dropdown">
                                     <a class="nav-link text-dark" asp-area="" asp-controller="Productos" asp-action="Cat" asp-route-categoria="PARAPENTE"><span>PARAPENTE</span></a>
                                 <div class="custom-dropdown-content">
-                                    <a asp-area="" asp-controller="Home" asp-action="Index">Arnes-Velas</a>
-                                    <a asp-area="" asp-controller="Home" asp-action="Index">Accesorios</a>
-                                    <a asp-area="" asp-controller="Home" asp-action="Index">Ropa</a>
+                                    <a asp-area="" asp-controller="Productos" asp-action="sCat" asp-route-categoria="PARAPENTE" asp-route-subcategoria="Arnes-Velas">Arnes-Velas</a>
+                                    <a asp-area="" asp-controller="Productos" asp-action="sCat" asp-route-categoria="PARAPENTE" asp-route-subcategoria="Accesorios">Accesorios</a>
+                                    <a asp-area="" asp-controller="Productos" asp-action="sCat" asp-route-categoria="PARAPENTE" asp-route-subcategoria="Ropa">Ropa</a>
                                 </div>
                             </div>
                         </li>
@@ -58,8 +58,8 @@
                             <div class="custom-dropdown">
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Productos" asp-action="Cat" asp-route-categoria="PILOTOS"><span>PILOTO</span></a>
                                 <div class="custom-dropdown-content">
-                                    <a asp-area="" asp-controller="Home" asp-action="Index">Accesorios</a>
-                                    <a asp-area="" asp-controller="Home" asp-action="Index">Ropa</a>
+                                    <a asp-area="" asp-controller="Productos" asp-action="sCat" asp-route-categoria="PILOTOS" asp-route-subcategoria="Accesorios">Accesorios</a>
+                                    <a asp-area="" asp-controller="Productos" asp-action="sCat" asp-route-categoria="PILOTOS" asp-route-subcategoria="Ropa">Ropa</a>
                                 </div>
                             </div>
                         </li>
@@ -67,13 +67,13 @@
                             <div class="custom-dropdown">
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Productos" asp-action="Cat" asp-route-categoria="OTROS"><span>OTROS</span></a>
                                 <div class="custom-dropdown-content">
-                                    <a asp-area="" asp-controller="Home" asp-action="Index">Camaras</a>
+                                    <a asp-area="" asp-controller="Productos" asp-action="sCat" asp-route-categoria="OTROS" asp-route-subcategoria="Camaras">Camaras</a>
                                 </div>
                             </div>
                         </li>
                         <li class="nav-item">
                             <div class="custom-dropdown">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Productos" ><span>QUIERO PUBLICAR<br /> MI PRODUCTO</span></a>
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Productos" asp-action="QuieroVender" ><span>QUIERO PUBLICAR<br /> MI PRODUCTO</span></a>
                                 <div class="custom-dropdown-content">
                                 </div>
                             </div>
@@ -105,39 +105,39 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle dropdown-toggle-icon" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">PARACAIDISMO</a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
-                                <li><a class="dropdown-item" asp-area="" asp-controller="Productos" asp-action="Index">Arnes-Velas</a></li>
-                                <li><a class="dropdown-item" asp-area="" asp-controller="Productos" asp-action="Index">Cascos</a></li>
-                                <li><a class="dropdown-item" asp-area="" asp-controller="Productos" asp-action="Index">Altimetros</a></li>
-                                <li><a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="Index">Ropa</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Productos" asp-action="sCat" asp-route-categoria="PARACAIDISMO" asp-route-subcategoria="Arnes-Velas">Arnes-Velas</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Productos" asp-action="sCat" asp-route-categoria="PARACAIDISMO" asp-route-subcategoria="Cascos">Cascos</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Productos" asp-action="sCat" asp-route-categoria="PARACAIDISMO" asp-route-subcategoria="Altimetros">Altimetros</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Productos" asp-action="sCat" asp-route-categoria="PARACAIDISMO" asp-route-subcategoria="Ropa">Ropa</a></li>
                                 <li><a class="dropdown-item" asp-area="" asp-controller="Productos" asp-action="Cat" asp-route-categoria="PARACAIDISMO">Todos los productos</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle dropdown-toggle-icon" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">PARAPENTE</a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
-                                <li><a class="dropdown-item" asp-area="" asp-controller="Productos" asp-action="Index">Arnes-Velas</a></li>
-                                <li><a class="dropdown-item" asp-area="" asp-controller="Productos" asp-action="Index">Accesorios</a></li>
-                                <li><a class="dropdown-item" asp-area="" asp-controller="Productos" asp-action="Index">Ropa</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Productos" asp-action="sCat" asp-route-categoria="PARAPENTE" asp-route-subcategoria="Arnes-Velas">Arnes-Velas</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Productos" asp-action="sCat" asp-route-categoria="PARAPENTE" asp-route-subcategoria="Accesorios">Accesorios</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Productos" asp-action="sCat" asp-route-categoria="PARAPENTE" asp-route-subcategoria="Ropa">Ropa</a></li>
                                 <li><a class="dropdown-item" asp-area="" asp-controller="Productos" asp-action="Cat" asp-route-categoria="PARAPENTE">Todos los productos</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle dropdown-toggle-icon" href="#" id="navbarDropdown3" role="button" data-bs-toggle="dropdown" aria-expanded="false">PILOTOS</a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown3">
-                                <li><a class="dropdown-item" asp-area="" asp-controller="Productos" asp-action="Index">Accesorios</a></li>
-                                <li><a class="dropdown-item" asp-area="" asp-controller="Productos" asp-action="Index">Ropa</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Productos" asp-action="sCat" asp-route-categoria="PILOTOS" asp-route-subcategoria="Accesorios">Accesorios</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Productos" asp-action="sCat" asp-route-categoria="PILOTOS" asp-route-subcategoria="Ropa">Ropa</a></li>
                                 <li><a class="dropdown-item" asp-area="" asp-controller="Productos" asp-action="Cat" asp-route-categoria="PILOTOS">Todos los productos</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle dropdown-toggle-icon" href="#" id="navbarDropdown4" role="button" data-bs-toggle="dropdown" aria-expanded="false">OTROS</a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown4">
-                                <li><a class="dropdown-item" asp-area="" asp-controller="Productos" asp-action="Index">Cámaras</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Productos" asp-action="sCat" asp-route-categoria="OTROS" asp-route-subcategoria="Camaras">Cámaras</a></li>
                                 <li><a class="dropdown-item" asp-area="" asp-controller="Productos" asp-action="Cat" asp-route-categoria="OTROS">Todos los productos</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                                <a class="nav-link" asp-area="" asp-controller="Productos" asp-action="Index">QUIERO PUBLICAR MI PRODUCTO</a>
+                                <a class="nav-link" asp-area="" asp-controller="Productos" asp-action="QuieroVender">QUIERO PUBLICAR MI PRODUCTO</a>
                         </li>
                     </ul>
                     <form class="d-flex ms-auto my-2 my-lg-0" method="post" asp-controller="Home" asp-action="Search">
@@ -149,7 +149,7 @@
             </div>
         </nav>
     </header>
-            <div class="container">
+            <div class="container-render">
                 <main role="main" class="pb-3">
                     
                     @RenderBody()
