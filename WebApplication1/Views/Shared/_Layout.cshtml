@@ -83,7 +83,9 @@
                         <input class="form-control me-2" type="search" placeholder="Buscar productos" aria-label="Buscar" name="searchTerm">
                         <button class="btn btn-outline-primary" type="submit">Buscar</button>
                     </form>
-                    <partial name="_LoginPartial" />
+                            <form class="d-flex" method="get" asp-controller="Home" asp-action="Login">
+                                <button type="submit" class="btn btn-outline-success me-2">Login</button>
+                            </form>
                 </div>
             </div>
         </nav>
@@ -144,7 +146,7 @@
                         <input class="form-control me-2" type="search" placeholder="Buscar productos" aria-label="Buscar" name="searchTerm">
                         <button class="btn btn-outline-primary" type="submit">Buscar</button>
                     </form>
-                    <partial name="_LoginPartial" />
+                            <a class="btn btn-outline-success me-2" asp-controller="Home" asp-action="Login">Login</a>
                 </div>
             </div>
         </nav>

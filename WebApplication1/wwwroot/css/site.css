@@ -34,64 +34,95 @@ footer.footer {
 }
 /* Estilos de la cuadrícula */
 .grid-container {
-    width: 100%;
-    display: grid;
-    grid-gap: 20px; /* Espacio entre elementos de la cuadrícula */
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    justify-content: center;
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
     margin: auto;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .grid-item {
     justify-content: center;
-    max-width: 250px;
+    width: 250px;
     overflow: hidden;
-    border: 1px solid #ddd; /* Borde delgado con color gris claro */
-    padding: 20px; /* Espacio interior de los elementos de la cuadrícula */
     text-align: center;
+    margin: 10px; /* Espacio entre los ítems */
+    text-align: center; /* Centra el contenido horizontalmente */
 }
 
 /* Estilos de productos */
 .product {
-    width: 100%;
-    position: relative;
-    height: 300px; /* Ajusta la altura según necesites */
     background-size: cover;
     background-position: center;
-    color: black; /* Color del texto sobre la imagen */
+    height: 300px; /* Altura fija para cada producto */
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    position: relative;
 }
+.product:hover {
+    transform: translateY(-5px);
+}
+.uppercase-text {
+    text-transform: uppercase;
+}
+
 .product-overlay {
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
-    padding: 20px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    color: white;
     text-align: center;
+    padding: 20px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.product:hover .product-overlay {
+    opacity: 1;
 }
 
 .product-image img {
     max-width: 100%; /* Imágenes de productos con ancho máximo del contenedor */
     height: auto; /* Altura automática según la proporción de la imagen */
-   }
+}
 
 
 .product-details {
     flex-grow: 1; /* Los detalles del producto ocupan todo el espacio disponible */
 }
 
-.product h2, .product p {
-    margin: 5px 0;
-}
-.product-actions {
-    margin-top: 10px; /* Espacio superior entre acciones y detalles del producto */
+.product-overlay h2 {
+    font-size: 14px;
+    margin-bottom: 10px;
 }
 
-    .product-actions a {
-        margin-right: 10px; /* Espacio entre elementos de acción del producto */
-        color: white;
+.product-overlay p {
+    font-size: 10px;
+    margin-bottom: 6px;
+}
+.product-actions {
+    margin-top: 7px; /* Espacio superior entre acciones y detalles del producto */
+}
+
+    .product-actions a, .product-actions button {
+        background-color: #4CAF50;
+        color: #fff;
+        border: none;
+        padding: 4px 8px;
+        text-align: center;
         text-decoration: none;
+        display: inline-block;
+        font-size: 10px;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        margin-right: 5px;
     }
 
 /* Estilos para PC */

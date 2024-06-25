@@ -16,16 +16,17 @@
 <div class="text-center">
     <h1 class="display-4">Productos destacados</h1>
 </div>
-<div class="grid-container" >
+<div class="grid-container">
     @foreach (var item in Model)
     {
         <div class="grid-item">
             <div class="product" style="background-image: url('@Url.Content("~/img/Productos/" + item.foto)')">
                 <div class="product-overlay">
-                    <h2>@item.nombre</h2>
+                    <h2 class="uppercase-text">@item.nombre</h2>
                     <p>@item.descripcion</p>
                     <p>Precio: @item.precio</p>
-                    <p>Marca: @item.categoria</p>
+                    <p>Categoria: @item.categoria</p>
+                    <p>Subcategoria: @item.subcategoria</p>
                     @if (@item.destacar == true)
                     {
                         <p>Destacado</p>

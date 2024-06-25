@@ -5,6 +5,10 @@ using WebApplication1.Models;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using WebApplication1.Data.Migrations;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication;
+using System.Security.Claims;
+using WebApplication1.Services;
 
 namespace WebApplication1.Controllers
 {
@@ -16,6 +20,43 @@ namespace WebApplication1.Controllers
         {
             _logger = logger;
             _context = context;
+        }
+        [HttpGet]
+        public IActionResult Login()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Login(Usuario model)
+        {
+                var admin = AdminService.ObtenerAdmin();
+
+                if (model.User == admin.User && model.Password == admin.Password)
+                {
+                    // Iniciar sesión para el usuario administrador
+                    var claims = new List<Claim>
+                        {
+                            new Claim(ClaimTypes.Name, model.User),
+                            new Claim(ClaimTypes.Role, "Admin"), // Opcional: asignar roles
+                        };
+
+                        var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+                        var authProperties = new AuthenticationProperties
+                        {
+                            IsPersistent = true, // Opcional: hacer la sesión persistente
+                        };
+
+                    HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity), authProperties).Wait();
+
+                    TempData["AlertMessage"] = "¡Login exitoso!";
+                    return RedirectToAction("Index", "Home"); // Redirigir al área administrativa
+                }
+                else
+                {
+                    ModelState.AddModelError("", "Credenciales incorrectas");
+                return View("~/Views/Productos/NoProductos.cshtml");
+                }
+          
         }
 
         public async Task<IActionResult> Index()
